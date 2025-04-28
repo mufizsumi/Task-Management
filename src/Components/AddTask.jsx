@@ -16,7 +16,7 @@ const AddTask = () => {
             id: uuidv4(),
             title,
             description,
-            completed: status,
+             status,
         }
         dispatch(addTask(newTask));
         setTitle('');
